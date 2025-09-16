@@ -6,5 +6,5 @@ metadata:
   name: redis
 spec:
   containers:
-  - image: rediss
+  - image: redis:latest
     name: redis
