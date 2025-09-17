@@ -1,5 +1,5 @@
 apiVersion: app/v1
-kind: ReplicationController
+kind: ReplicaSet
 metadata:
   name: rc-nginx
   labels:
