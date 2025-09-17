@@ -10,6 +10,7 @@ spec:
     metadata:
       labels:
         env: demo
+        name: nginx-pod
     spec:
       containers:
         - name: nginx
